@@ -34,12 +34,17 @@ android {
         weather {
             dimension 'app'
             ext {
+                prod = endPoints.prod
                 dev = endPoints.dev
                 key = endPoints.appKey
             }
         }
 
         dev {
+            dimension 'environment'
+        }
+
+        prod {
             dimension 'environment'
         }
     }

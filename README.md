@@ -17,6 +17,7 @@ Platform : Android
 8) OkHttp
 9) Flow
 10) Coroutine
+11) Navigation component
 
 Retrofit is a type safe http client used to getting data from server, it calling to server by using
 java interface with many request methods and request params. Okhttp used for network call. RxJava is
