@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/events"
+    app:startDestination="@id/homeWeatherFrag">
+
+    <fragment
+        android:id="@+id/homeWeatherFrag"
+        android:name="com.sample.ui.main.fragment.home.HomeWeatherFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_itemFragment_to_search"
+            app:destination="@id/searchWeatherFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchWeatherFragment"
+        android:name="com.sample.ui.main.fragment.favorite.WeatherSearchAndFavFragment"
+        android:label="SearchFragment">
+        <action
+            android:id="@+id/action_got_to_independent"
+            app:destination="@id/independentWeatherFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/independentWeatherFragment"
+        android:name="com.sample.ui.main.fragment.independant.IndependentWeatherFragment"
+        android:label="independentWeatherFragment" />
+
+</navigation>

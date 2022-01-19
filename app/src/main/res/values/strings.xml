@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Weather</string>
+    <string name="theme">App Theme</string>
+    <string name="image_desc">Add to fav</string>
+    <string name="unknown_result">No response due to frequent request</string>
+    <string name="wrong_response">Something went wrong</string>
+    <string name="not_data">Sorry No data available</string>
+    <string name="ok">Okay</string>
+    <string name="previous_days">10days forecast</string>
+    <string name="internet_error">No Internet</string>
+    <string name="internet_error_message">No Internet access, please turn ON your WiFi or Data</string>
+    <string name="search">Search</string>
+    <string name="sorry_will_do">Sorry! this feature not available right now</string>
+    <string name="city_not_found">Searched city not found</string>
+    <string name="location_not_available">Location temporarily not available</string>
+    <string name="location_out_service">Location out of service</string>
+</resources>
