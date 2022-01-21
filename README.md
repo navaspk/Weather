@@ -29,5 +29,9 @@ Application Architecture
 
 Using MVVM architecture with clean architecture
 
-Just clone the repository and build. Make sure your system has active internet connection to
+Just clone the repository and build. Make sure your sys
+
+https://user-images.githubusercontent.com/14113374/150469586-c56d79b9-8510-4810-9ea2-44f7aa596cde.mp4
+
+tem has active internet connection to
 download all the dependencies. 
